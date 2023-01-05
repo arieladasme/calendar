@@ -35,6 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-big-calendar", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:1.5.2"],\
             ["react-dom", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:18.2.0"],\
+            ["react-modal", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:3.16.1"],\
             ["react-router-dom", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:6.6.1"],\
             ["vite", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:4.0.4"]\
           ],\
@@ -955,6 +956,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-big-calendar", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:1.5.2"],\
             ["react-dom", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:18.2.0"],\
+            ["react-modal", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:3.16.1"],\
             ["react-router-dom", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:6.6.1"],\
             ["vite", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:4.0.4"]\
           ],\
@@ -1243,6 +1245,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/escape-string-regexp-npm-1.0.5-3284de402f-6092fda75c.zip/node_modules/escape-string-regexp/",\
           "packageDependencies": [\
             ["escape-string-regexp", "npm:1.0.5"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["exenv", [\
+        ["npm:1.2.2", {\
+          "packageLocation": "./.yarn/cache/exenv-npm-1.2.2-eeb9069149-a894f3b60a.zip/node_modules/exenv/",\
+          "packageDependencies": [\
+            ["exenv", "npm:1.2.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2096,6 +2107,36 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/react-lifecycles-compat-npm-3.0.4-d5e285a39e-a904b0fc0a.zip/node_modules/react-lifecycles-compat/",\
           "packageDependencies": [\
             ["react-lifecycles-compat", "npm:3.0.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-modal", [\
+        ["npm:3.16.1", {\
+          "packageLocation": "./.yarn/cache/react-modal-npm-3.16.1-3ba7cf9e93-978936e932.zip/node_modules/react-modal/",\
+          "packageDependencies": [\
+            ["react-modal", "npm:3.16.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:3.16.1", {\
+          "packageLocation": "./.yarn/__virtual__/react-modal-virtual-2721b8d063/0/cache/react-modal-npm-3.16.1-3ba7cf9e93-978936e932.zip/node_modules/react-modal/",\
+          "packageDependencies": [\
+            ["react-modal", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:3.16.1"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.10"],\
+            ["exenv", "npm:1.2.2"],\
+            ["prop-types", "npm:15.8.1"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:18.2.0"],\
+            ["react-lifecycles-compat", "npm:3.0.4"],\
+            ["warning", "npm:4.0.3"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\

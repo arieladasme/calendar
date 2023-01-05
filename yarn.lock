@@ -747,6 +747,7 @@ __metadata:
     react: ^18.2.0
     react-big-calendar: ^1.5.2
     react-dom: ^18.2.0
+    react-modal: ^3.16.1
     react-router-dom: 6
     vite: ^4.0.0
   languageName: unknown
@@ -1026,6 +1027,13 @@ __metadata:
   version: 1.0.5
   resolution: "escape-string-regexp@npm:1.0.5"
   checksum: 6092fda75c63b110c706b6a9bfde8a612ad595b628f0bd2147eea1d3406723020810e591effc7db1da91d80a71a737a313567c5abb3813e8d9c71f4aa595b410
+  languageName: node
+  linkType: hard
+
+"exenv@npm:^1.2.0":
+  version: 1.2.2
+  resolution: "exenv@npm:1.2.2"
+  checksum: a894f3b60ab8419e0b6eec99c690a009c8276b4c90655ccaf7d28faba2de3a6b93b3d92210f9dc5efd36058d44f04098f6bbccef99859151104bfd49939904dc
   languageName: node
   linkType: hard
 
@@ -1749,10 +1757,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-lifecycles-compat@npm:^3.0.4":
+"react-lifecycles-compat@npm:^3.0.0, react-lifecycles-compat@npm:^3.0.4":
   version: 3.0.4
   resolution: "react-lifecycles-compat@npm:3.0.4"
   checksum: a904b0fc0a8eeb15a148c9feb7bc17cec7ef96e71188280061fc340043fd6d8ee3ff233381f0e8f95c1cf926210b2c4a31f38182c8f35ac55057e453d6df204f
+  languageName: node
+  linkType: hard
+
+"react-modal@npm:^3.16.1":
+  version: 3.16.1
+  resolution: "react-modal@npm:3.16.1"
+  dependencies:
+    exenv: ^1.2.0
+    prop-types: ^15.7.2
+    react-lifecycles-compat: ^3.0.0
+    warning: ^4.0.3
+  peerDependencies:
+    react: ^0.14.0 || ^15.0.0 || ^16 || ^17 || ^18
+    react-dom: ^0.14.0 || ^15.0.0 || ^16 || ^17 || ^18
+  checksum: 978936e9320fad839c039b9ee4de55d40888156cb40e093615d6fbc2ff07139d5db06f14782cb7767f780bd5fb57956778669426c535ebc0068a7a03882c7e75
   languageName: node
   linkType: hard
 
