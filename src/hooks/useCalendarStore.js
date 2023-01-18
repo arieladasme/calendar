@@ -48,7 +48,6 @@ export const useCalendarStore = () => {
         }
       })
     }
-    dispatch(onDeleteEvent())
   }
 
   const startLoadingEvent = async () => {
