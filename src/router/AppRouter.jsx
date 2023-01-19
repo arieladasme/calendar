@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { Route, Routes, Navigate } from 'react-router-dom'
+import { Grid, CircularProgress } from '@mui/material'
 import { LoginPage, RegisterPage } from '../auth'
 import { CalendarPage } from '../calendar'
 import { useAuthStore } from '../hooks'
@@ -13,7 +14,20 @@ export const AppRouter = () => {
   }, [])
 
   if (status === 'checking') {
-    return <h3>Cargandoooooo</h3>
+    return (
+      <Grid
+        container
+        spacing={0}
+        direction="column"
+        alignItems="center"
+        justifyContent="center"
+        sx={{ minHeight: '100vh', backgroundColor: 'primary.main', padding: 4 }}
+      >
+        <Grid item justifyContent="center">
+          <CircularProgress color="info" />
+        </Grid>
+      </Grid>
+    )
   }
 
   return (
