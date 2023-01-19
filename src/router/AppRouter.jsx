@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { Route, Routes, Navigate } from 'react-router-dom'
-import { LoginPage } from '../auth'
+import { LoginPage, RegisterPage } from '../auth'
 import { CalendarPage } from '../calendar'
 import { useAuthStore } from '../hooks'
 
@@ -21,6 +21,7 @@ export const AppRouter = () => {
       {status === 'not-authenticated' ? (
         <>
           <Route path="/auth/*" element={<LoginPage />} />
+          <Route path="/auth/register" element={<RegisterPage />} />
           <Route path="/*" element={<Navigate to="/auth/login" />} />
         </>
       ) : (
