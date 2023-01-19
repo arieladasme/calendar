@@ -30,6 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@emotion/react", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:11.10.5"],\
             ["@emotion/styled", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:11.10.5"],\
+            ["@mui/icons-material", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:5.11.0"],\
             ["@mui/material", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:5.11.5"],\
             ["@reduxjs/toolkit", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:1.9.1"],\
             ["@types/react", "npm:18.0.26"],\
@@ -939,6 +940,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@mui/icons-material", [\
+        ["npm:5.11.0", {\
+          "packageLocation": "./.yarn/cache/@mui-icons-material-npm-5.11.0-2a69112f17-764c1185b3.zip/node_modules/@mui/icons-material/",\
+          "packageDependencies": [\
+            ["@mui/icons-material", "npm:5.11.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:5.11.0", {\
+          "packageLocation": "./.yarn/__virtual__/@mui-icons-material-virtual-149dd4f729/0/cache/@mui-icons-material-npm-5.11.0-2a69112f17-764c1185b3.zip/node_modules/@mui/icons-material/",\
+          "packageDependencies": [\
+            ["@mui/icons-material", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:5.11.0"],\
+            ["@babel/runtime", "npm:7.20.7"],\
+            ["@mui/material", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:5.11.5"],\
+            ["@types/mui__material", null],\
+            ["@types/react", "npm:18.0.26"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@mui/material",\
+            "@types/mui__material",\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@mui/material", [\
         ["npm:5.11.5", {\
           "packageLocation": "./.yarn/cache/@mui-material-npm-5.11.5-2fa3747fc1-2baa088367.zip/node_modules/@mui/material/",\
@@ -1545,6 +1573,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["calendar", "workspace:."],\
             ["@emotion/react", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:11.10.5"],\
             ["@emotion/styled", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:11.10.5"],\
+            ["@mui/icons-material", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:5.11.0"],\
             ["@mui/material", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:5.11.5"],\
             ["@reduxjs/toolkit", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:1.9.1"],\
             ["@types/react", "npm:18.0.26"],\
