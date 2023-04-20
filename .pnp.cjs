@@ -38,6 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vitejs/plugin-react", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:3.0.0"],\
             ["axios", "npm:1.2.2"],\
             ["date-fns", "npm:2.29.3"],\
+            ["dotenv-webpack", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:8.0.1"],\
             ["react", "npm:18.2.0"],\
             ["react-big-calendar", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:1.5.2"],\
             ["react-datepicker", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:4.8.0"],\
@@ -1581,6 +1582,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vitejs/plugin-react", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:3.0.0"],\
             ["axios", "npm:1.2.2"],\
             ["date-fns", "npm:2.29.3"],\
+            ["dotenv-webpack", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:8.0.1"],\
             ["react", "npm:18.2.0"],\
             ["react-big-calendar", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:1.5.2"],\
             ["react-datepicker", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:4.8.0"],\
@@ -1832,6 +1834,48 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["dom-helpers", "npm:5.2.1"],\
             ["@babel/runtime", "npm:7.20.7"],\
             ["csstype", "npm:3.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["dotenv", [\
+        ["npm:8.6.0", {\
+          "packageLocation": "./.yarn/cache/dotenv-npm-8.6.0-2ce3e9f7bb-38e902c80b.zip/node_modules/dotenv/",\
+          "packageDependencies": [\
+            ["dotenv", "npm:8.6.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["dotenv-defaults", [\
+        ["npm:2.0.2", {\
+          "packageLocation": "./.yarn/cache/dotenv-defaults-npm-2.0.2-436a76242a-c005960bd0.zip/node_modules/dotenv-defaults/",\
+          "packageDependencies": [\
+            ["dotenv-defaults", "npm:2.0.2"],\
+            ["dotenv", "npm:8.6.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["dotenv-webpack", [\
+        ["npm:8.0.1", {\
+          "packageLocation": "./.yarn/cache/dotenv-webpack-npm-8.0.1-36e1a1f481-ee73eda78d.zip/node_modules/dotenv-webpack/",\
+          "packageDependencies": [\
+            ["dotenv-webpack", "npm:8.0.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:8.0.1", {\
+          "packageLocation": "./.yarn/__virtual__/dotenv-webpack-virtual-df9beec360/0/cache/dotenv-webpack-npm-8.0.1-36e1a1f481-ee73eda78d.zip/node_modules/dotenv-webpack/",\
+          "packageDependencies": [\
+            ["dotenv-webpack", "virtual:10acf1b7f3fecc7302c7241c52db2c70776be2f9951adb8487c56fc05bfe8ecb91d9a3e3d04fb3ae602751e8a233c019a47b9351bbee93bcc71a082848df8773#npm:8.0.1"],\
+            ["@types/webpack", null],\
+            ["dotenv-defaults", "npm:2.0.2"],\
+            ["webpack", null]\
+          ],\
+          "packagePeers": [\
+            "@types/webpack",\
+            "webpack"\
           ],\
           "linkType": "HARD"\
         }]\
